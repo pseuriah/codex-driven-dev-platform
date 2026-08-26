@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["readable_entries", "writable_entries", "rationale"],
+  "properties": {
+    "readable_entries": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "writable_entries": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "rationale": {"type": "string"}
+  }
+}
